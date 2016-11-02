@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/252H.jpg');
+    background-size: cover;
+}
+
+body {
+    background-color: transparent;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 10px 10px 37px;
+    position: relative;
+    text-align: center;
+    top: 90px;
+    width: 90%;
+    margin-bottom: 200px;
+}
+
+h1 {
+    font-size: 56px;
+    text-shadow: 0 0 5px #000;
+}
+
+p {
+    font-size: 22px;
+    text-shadow: 0 0 5px #000;
+    line-height: 39px;
+}
+
+.btn {
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-ghost {
+    transition: background-color .5s, color .5s;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    .card {
+        padding: 10px 20px 27px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
